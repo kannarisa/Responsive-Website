@@ -25,9 +25,6 @@ section p {
   font-size: 1rem;
   margin-bottom: 20px;
 }
-.fw-bold{
-    font-family: 'Crimson Text', sans-serif;
-}
 .navbar-brand{
   color: white;
 }
@@ -40,6 +37,30 @@ section p {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 5px;
+  height: 40px;
+}
+.h1.fw-bold{
+  font-family: 'Crimson Text', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;    
+}
+.text1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.75px;
+  color: rgba(255, 255, 255, 0.486);
+  padding: auto;
+  margin-top: 15px;
+  line-height: 20px;
+}
+.explore{
+  font-family: 'Works sans',sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
 }
 /* Partner Section */
 
@@ -60,5 +81,26 @@ section p {
   text-align: center;
   color: #74c69d;
 }
+.text2{
+  font-family: 'Works sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+.LearnMore1{  
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  font-family: 'Works sans' sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #212529;
+  
+}
 
 /* Features Section  */
+
