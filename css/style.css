@@ -1,3 +1,26 @@
-.green area{
-    background: #74C69D;
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.6;
 }
+
+header .navbar-brand {
+  font-size: 1.8rem;
+}
+
+section h1 {
+  font-size: 2.5rem;
+}
+
+section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.fw-bold{
+    font-family: 'Crimson Text', sans-serif;
+}
+
