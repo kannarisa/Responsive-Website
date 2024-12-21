@@ -49,10 +49,10 @@ section p {
   font-weight: 400;
   font-size: 15px;
   line-height: 18.75px;
-  color: rgba(255, 255, 255, 0.486);
   padding: auto;
   margin-top: 15px;
   line-height: 20px;
+  color: rgba(255, 255, 255, 0.486);
 }
 .explore{
   font-family: 'Works sans',sans-serif;
@@ -64,7 +64,7 @@ section p {
 }
 /* Partner Section */
 
-.Typography{
+.topic1{
   font-family: 'Crimson Text', sans-serif;
   size: 40px;
   font-weight: 700;
@@ -104,3 +104,37 @@ section p {
 
 /* Features Section  */
 
+.box1{
+  position: relative;
+  left: 60%;
+  top: -330px;
+}
+.topic2{
+  font-family: 'Crimson Text', sans-serif;
+  size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: black;
+  line-height: 38px;
+}
+.text3{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.75px;
+  padding: auto;
+  margin-top: 15px;
+  line-height: 20px;
+  color: #21252980
+}
+.LearnMore2{
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  font-family: 'Works sans' sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #212529;
+}
