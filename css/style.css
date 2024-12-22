@@ -373,6 +373,22 @@ section p {
 }
 
 /*Footer Section */
-.footersection{
+.footerblackground{
   background-color: #74c69d;
+}
+
+.logo{
+  width: 242px;
+  height: 18px;
+  letter-spacing: 10px;
+  padding-right: 18px;
+  padding-top: 15px
+}
+
+.Yeartext{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: white;
 }
