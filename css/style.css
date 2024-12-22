@@ -8,6 +8,7 @@
   font-style: normal;
 }
 
+
 body {
   font-family: 'Work Sans', sans-serif;
   line-height: 1.6;
@@ -87,6 +88,7 @@ section p {
   font-size: 18px;
   line-height: 25px;
   text-align: center;
+  letter-spacing: 2px;
 }
 .LearnMore1{  
   width: 170px;
@@ -105,13 +107,14 @@ section p {
 /* Features Section  */
 
 .box1{
-  position: relative;
-  left: 60%;
-  top: -330px;
+  position: absolute;
+  right: 410px;
+  top:  1130px;
+
 }
 .topic2{
   font-family: 'Crimson Text', sans-serif;
-  size: 40px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 50px;
   color: black;
@@ -137,4 +140,73 @@ section p {
   text-align: center;
   padding: 10px 10px;
   background-color: #212529;
+}
+.sit{
+  position: relative; 
+  right: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.box2{
+  position: absolute;
+  top: 1670px;
+}
+.topic3{
+  font-family: 'Crimson Text', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: black;
+  line-height: 38px;
+}
+.text4{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.75px;
+  padding: auto;
+  margin-top: 15px;
+  line-height: 20px;
+  color: #21252980
+}
+.LearnMore3{
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  font-family: 'Works sans' sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #212529;
+}
+
+/* Team Section */
+
+.Team{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #74c69d;
+}
+
+.topic4{
+  font-family: 'Crimson Text', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #212529;
+}
+
+.text5{
+  font-family: 'Works sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 2px;
 }
