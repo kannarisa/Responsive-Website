@@ -27,6 +27,10 @@ section p {
   margin-bottom: 20px;
 }
 /* Header */
+.headersection{
+  top: 0;
+  position: sticky;
+}
 .headertop{
   background-color: #74c69d;
   color: white;
@@ -113,7 +117,6 @@ section p {
 /* Features Section  */
 
 .box1{
-  position: relative;
   width: 100%;
   padding-right: 15px;
   padding-left: 68px;
@@ -125,7 +128,6 @@ section p {
   font-weight: 700;
   line-height: 50px;
   color: black;
-  line-height: 38px;
 }
 .text3{
   font-weight: 400;
@@ -133,7 +135,6 @@ section p {
   line-height: 18.75px;
   padding: auto;
   margin-top: 15px;
-  line-height: 20px;
   color: #21252980
 }
 .LearnMore2{
@@ -149,22 +150,21 @@ section p {
   background-color: #212529;
 }
 .sit{
-  position: relative; 
   right: 80px;
   display: flex;
   flex-direction: row-reverse;
 }
-.box2{
-  position: absolute;
-  top: 1670px;
+.box2{  
+  width: 100%;
+  padding-right: 15px;
+  padding-top: 150px;
 }
 .topic3{
   font-family: 'Crimson Text', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 60px;
   color: black;
-  line-height: 38px;
 }
 .text4{
   font-weight: 400;
@@ -172,7 +172,6 @@ section p {
   line-height: 18.75px;
   padding: auto;
   margin-top: 15px;
-  line-height: 20px;
   color: #21252980
 }
 .LearnMore3{
