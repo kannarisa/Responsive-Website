@@ -210,3 +210,144 @@ section p {
   text-align: center;
   letter-spacing: 2px;
 }
+
+/* Card 1 */
+
+.card1{
+  border-radius: 5px;
+  box-shadow: 3px 4px 12px 1px #00000040;
+  width: 279px;
+  height: 299px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.Peggy{
+  width: 175px;
+  height: 175px;
+}
+.peg{
+  position: relative;
+  width: 202px;
+  height: 260px;
+  top: 20px;
+  left: 38px;
+}
+.titlePeg{
+  font-family: 'Crimson Text', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px; 
+  color: #212529;
+}
+.TextPeg{
+  position: relative;
+  width: 202px;
+  height: 66px;
+  top: 19px;
+}
+
+/* Card 2 */
+
+.card2{
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 3px 4px 12px 1px #00000040;
+  width: 252px;
+  height: 299px;
+  left: 14px;
+}
+.Rich{
+  width: 175px;
+  height: 175px;
+  border: 1px;
+}
+.richard{
+  position: relative;
+  width: 202px;
+  height: 260px;
+  top: 20px;
+  left: 25px;
+}
+.titleRichard{
+  font-family: 'Crimson Text', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px; 
+  color: #212529;
+}
+.TextRichard{
+  position: relative;
+  width: 202px;
+  height: 66px;
+  top: 19px;
+}
+/* Card 3 */
+
+.card3{
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 3px 4px 12px 1px #00000040;
+  width: 252px;
+  height: 299px;
+  left: 12px;
+}
+.Alex{
+  width: 175px;
+  height: 175px;
+  border: 1px;
+}
+.alexandra{
+  position: relative;
+  width: 202px;
+  height: 260px;
+  top: 20px;
+  left: 25px;
+}
+.titleAlex{
+  font-family: 'Crimson Text', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px; 
+  color: #212529;
+}
+.TextAlex{
+  position: relative;
+  width: 202px;
+  height: 66px;
+  top: 19px;
+}
+
+/* Card 4 */
+
+.card4{
+  border-radius: 5px;
+  box-shadow: 3px 4px 12px 1px #00000040;
+  width: 252px;
+  height: 299px;
+}
+.Janet{
+  width: 175px;
+  height: 175px;
+  border: 1px;
+}
+.janet{
+  position: relative;
+  width: 202px;
+  height: 260px;
+  top: 20px;
+  left: 25px;
+}
+.titleJanet{
+  font-family: 'Crimson Text', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px; 
+  color: #212529;
+}
+.TextJanet{
+  position: relative;
+  width: 202px;
+  height: 66px;
+  top: 19px;
+}
