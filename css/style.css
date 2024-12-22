@@ -26,11 +26,17 @@ section p {
   font-size: 1rem;
   margin-bottom: 20px;
 }
-.navbar-brand{
+/* Header */
+.headerblackground{
+  background-color: #74c69d;
   color: white;
 }
 .navbar-nav{
     gap: 30px;
+}
+/* Hero Section*/
+.Heroblackground{
+  background-color: #74c69d;
 }
 .text-uppercase{
   font-family: 'Works sans', sans-serif;
@@ -107,10 +113,11 @@ section p {
 /* Features Section  */
 
 .box1{
-  position: absolute;
-  right: 410px;
-  top:  1130px;
-
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 68px;
+  padding-top: 90px;
 }
 .topic2{
   font-family: 'Crimson Text', sans-serif;
@@ -350,4 +357,22 @@ section p {
   width: 202px;
   height: 66px;
   top: 19px;
+}
+/* btn ViewTeam */
+.Viewteam{
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  font-family: 'Works sans' sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #212529;
+}
+
+/*Footer Section */
+.footersection{
+  background-color: #74c69d;
 }
