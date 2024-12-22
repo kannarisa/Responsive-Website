@@ -149,11 +149,7 @@ section p {
   padding: 10px 10px;
   background-color: #212529;
 }
-.sit{
-  right: 80px;
-  display: flex;
-  flex-direction: row-reverse;
-}
+
 .box2{  
   width: 100%;
   padding-right: 15px;
