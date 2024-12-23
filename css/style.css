@@ -404,15 +404,6 @@ section p {
   text-align: center;
 }
 
-.topic5{
-  font-family: 'Crimson Text', sans-serif;
-  size: 40px;
-  font-weight: 700;
-  text-align: center;
-  line-height: 50px;
-  color: black;
-}
-
 .text5{
   font-family: 'Works sans', sans-serif;
   font-weight: 400;
@@ -421,7 +412,9 @@ section p {
   text-align: center;
   letter-spacing: 2px;
 }
+
 /* Work Poster */
+
 .example1{
   position: relative;
   right: 20px;
@@ -467,4 +460,33 @@ section p {
   text-align: center;
   padding: 10px 10px;
   background-color: #212529;
+}
+
+/* Our Services Section */
+
+.Plans{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #74c69d;
+}
+
+.OurServices{
+  font-family: 'Crimson Text',sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.text6{
+  font-family: 'Works sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 2px;
 }
