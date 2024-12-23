@@ -8,10 +8,16 @@
   font-style: normal;
 }
 
+.html{
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: 'Work Sans', sans-serif;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 header .navbar-brand {
@@ -707,7 +713,7 @@ section p {
   background-color: #212529;
 }
 
-/* Contract Section */
+/* Contact Section */
 
 .NameTitle{
   font-family: 'Work Sans',sans-serif;
@@ -780,4 +786,12 @@ section p {
   line-height: 25px;
   text-align: center;
   margin-top: 5px;
+}
+
+.map_container{
+  padding-left: 30px;
+}
+
+.section-contact{
+  padding-top: 6.2rem;
 }
