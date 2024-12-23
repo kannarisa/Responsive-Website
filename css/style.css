@@ -490,3 +490,90 @@ section p {
   text-align: center;
   letter-spacing: 2px;
 }
+/* Services Section */
+
+/* Basic services */
+
+.basic-services{
+  width: 339px;
+  height: 542px;
+  border-radius: 5px;
+  padding: 46px 36px 46px 30px;
+  box-shadow: 3px 4px 12px 1px #00000040;
+}
+
+.price{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.month{
+  font-family: 'Work Sans',sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #21252980;
+
+}
+/* Plus services */
+
+.plus-services{
+  width: 339px;
+  height: 542px;
+  border-radius: 5px;
+  padding: 46px 36px 46px 30px;
+  box-shadow: 3px 4px 12px 1px #00000040;
+}
+
+/* Pro services */
+
+.pro-services{
+  width: 339px;
+  height: 542px;
+  border-radius: 5px;
+  padding: 46px 36px 46px 30px;
+  box-shadow: 3px 4px 12px 1px #00000040;
+}
+
+/* button Services */
+
+.LearnMore5{
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  font-family: 'Works sans' sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #212529;
+}
+
+.LearnMore6{
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  font-family: 'Works sans' sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #212529;
+}
+
+.LearnMore7{
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  font-family: 'Works sans' sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #212529;
+}
