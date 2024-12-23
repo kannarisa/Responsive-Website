@@ -706,3 +706,78 @@ section p {
   padding: 10px 10px;
   background-color: #212529;
 }
+
+/* Contract Section */
+
+.NameTitle{
+  font-family: 'Work Sans',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.name{
+  width: 575px;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.EmailBox{
+  margin-top: 20px;
+}
+.EmailTitle{
+  font-family: 'Work Sans',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.email{
+  width: 575px;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.MessageBox{
+  margin-top: 20px;
+}
+.MessageTitle{
+  font-family: 'Work Sans',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.message{
+  width: 575px;
+  height: 75px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #EEEEEE;
+  margin-top: 8px;
+}
+
+.SubmitBox{
+  margin-top: 20px;
+}
+.Submit{
+  width: 575px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #212529;
+}
+
+.SubmitText{
+  font-family: 'Work Sans',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 5px;
+}
