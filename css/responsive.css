@@ -6,30 +6,160 @@
     }
 
     .container-fulid{
-        padding: 35px 130px 0px 135px;
+        padding: 35px 80px 0px 80px;
     }
 
     .Topic_Welcome{
-        padding: 40px 129px 82px 130px;
+        padding: 40px 80px 0px 80px;
     }
     .container{
         padding: 0;
         margin: 0;
     }
+    .Partner_Section{
+        padding: 0px 20px 0px 20px;
+    }
     .img-google{
-        width: 100px;
+        width: 150px;
     }
     .img-microsoft{
-        width: 100px;
+        width: 140px;
     }
     .img-airbnb{
-        width: 100px;
+        width: 140px;
     }
     .img-facebook{
-        width: 100px;
+        width: 140px;
     }
     .img-spotify{
-        width: 100px;
+        width: 140px;
+    }
+    /* Feature Section */
+    .Features_Section{
+        padding: 0px 30px 0px 30px; 
+    }
+    .box1{
+        padding: 0px 15px;
+        margin-top: 50px;
+    }
+    .Features_Section2{
+        padding: 0px 30px 0px 30px; 
+    }
+    .box2{
+        padding: 0px 15px;
+        margin-top: 120px; 
+    }
+    /* Team Section */
+    .Team_Section{
+        padding: 0px 30px 0px 30px; 
+    }
+    .card1{
+        width: 210px;
+        height: 300px;
+    }
+    .peg{
+        left: 10px;
+    }
+    .Peggy{
+        width: 190px;
+        padding-right: 20px;
+    }
+    .Card2_Section{
+        padding-left: 0px;
+    }
+    .card2{
+        width: 210px;
+        height: 300px;
+    }
+    .richard{
+        left: 10px;
+    }
+    .Rich{
+        width: 190px;
+        padding-right: 20px;
+    }
+    .Card3_Section{
+        padding-left: 0px;  
+    }
+    .card3{
+        width: 210px;
+        height: 300px;
+    }
+    .alexandra{
+        left: 10px;
+    }
+    .Alex{
+        width: 190px;
+        padding-right: 20px;
+    }
+    .card4{
+        width: 210px;
+        height: 300px;
+    }
+    .janet{
+        left: 10px;
+    }
+    .Janet{
+        width: 190px;
+        padding-right: 20px;
+    }
+    .Footer_Index{
+        padding-left: 38px;
+        padding-right: 0px;
+    }
+    /* portfolio */
+    .Start_Section{
+        padding-bottom: 30px;
+    }
+    .Portfolio_Section{
+        padding: 0px 20px 0px 20px;
+    }
+    .Work_Section{
+        padding: 0px 20px 0px 20px;
+    }
+    .Work_Poster{   
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .example1{
+        max-width: 100%;  
+        bottom: 42px;
+        left: 10px; 
+    }
+    .example2{
+        max-width: 100%;   
+        bottom: 42px;
+    }
+    .example3{
+        max-width: 100%;
+        bottom: 42px;
+        left: 10px; 
+    }
+    .example4{
+        max-width: 100%;
+        bottom: 42px;
+    }
+    .example5{
+        max-width: 100%;
+        bottom: 42px;
+        left: 10px; 
+    }
+    .example6{
+        max-width: 100%;
+        bottom: 42px;
+    }
+    .example7{
+        max-width: 100%;
+        bottom: 42px;
+        left: 10px; 
+    }
+    .example8{
+        max-width: 100%;
+        bottom: 42px;
+    }
+    .Footer_Portfolio{
+        padding-left: 38px;
+        padding-right: 0px;
     }
 }
 
@@ -47,9 +177,4 @@
   
   
 
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
-
-}
+@media (min-width: 1200px) {}

@@ -413,6 +413,10 @@ section p {
 
 /* Portfolio */
 
+.headersection{
+  background-color: #74c69d;
+  color: white;
+}
 .Works{
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
