@@ -33,7 +33,7 @@ section p {
   margin-bottom: 20px;
 }
 /* Header */
-.headertop{
+.hero_area{
   background-color: #74c69d;
   color: white;
 }
@@ -41,9 +41,7 @@ section p {
     gap: 30px;
 }
 /* Hero Section*/
-.Heroblackground{
-  background-color: #74c69d;
-}
+
 .text-uppercase{
   font-family: 'Works sans', sans-serif;
   font-weight: 700;
