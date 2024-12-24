@@ -197,9 +197,36 @@
         padding-bottom: 308px;
     }
 
-
-
-
+    /* Contact us */
+    .Contact_Header{
+        padding-bottom: 30px;       
+    }
+    .Contact_Section{
+        padding-left: 50px;
+    }
+    .Inform_Section{
+        padding: 0px 20px 0px 31px;
+    }
+    .Inform_box form {
+        width: 100%;
+    }
+    .Inform_box input{
+        width: 100%;
+    }
+    .SubmitBox .Submit{
+        width: 100%;
+    }
+    .map iframe{
+        width: 450px;
+    }
+    .Footer_Contact{
+        padding-left: 38px;
+        padding-right: 0px;
+    }
+    .Padding_Contact{
+        padding-top: 40px;
+        padding-bottom: 391px;
+    }
 }   
 
 
