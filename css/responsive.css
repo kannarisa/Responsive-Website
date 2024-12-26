@@ -276,7 +276,28 @@
         font-weight: 700 !important;
         font-size: 28px !important;
         line-height: 35px !important;
+        position: relative;
+        bottom: 15px;
+        margin: 0%;
     }
+    .text1{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 0px;
+        color: #FFFFFFBF;
+    }
+    .explore{
+        width: 170px;
+        height: 48px;
+        padding-top: 10px;
+    }
+    /* Partner */
+    
+
+
+
+
 
 
 
