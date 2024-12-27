@@ -500,6 +500,40 @@
         padding: 0px 10px;
     }
 
+    /* Our Services */
+
+    .Services_Header{
+        padding-bottom: 0px;
+    }
+
+    .Padding_Plans{
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+    }
+
+    .OurServices{
+        font-size: 24px;
+    }
+    
+    .Padding_Services{
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .OurServices_Section{
+        padding: 0px 20px 0px 20px;
+    }
+
+    .Basic_Col , .Plus_Col, .Pro_Col{
+        padding-bottom: 50px;
+    }
+
+    /* Footer Services */
+        
+    .Footer_Services{
+        padding: 0px 10px;
+    }
+
     /* Contact Header */
 
     .Contact_Header{
