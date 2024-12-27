@@ -243,11 +243,13 @@
 
     .container-fulid{
         padding: 2px 20px 0px 20px;
-    }  
+    } 
+
     .Logo_Start{
-        width: 45px;
-        height: 31px;
+        width: 45px !important;
+        height: 31px !important;
     }
+
     .navbar-brand{
         position: relative;
         right: 65px;
@@ -256,6 +258,7 @@
     .navbar-nav{
         text-align: center;    
     }
+
     .Teamwork_3{
         margin-bottom: 30px;
     }
@@ -265,13 +268,16 @@
     .Topic_Welcome{
         padding: 0px 20px 0px 20px;
     }
+
     .Topic_Welcome .row{
         display: flex;
         flex-direction: column-reverse;
     }
+
     .Padding_Hero{
         padding-top:  20px !important;
     }
+
     .h1{
         font-weight: 700 !important;
         font-size: 28px !important;
@@ -280,6 +286,7 @@
         bottom: 15px;
         margin: 0%;
     }
+
     .text1{
         font-weight: 400;
         font-size: 15px;
@@ -287,12 +294,14 @@
         margin-top: 0px;
         color: #FFFFFFBF;
     }
+
     .explore{
         width: 170px;
         height: 48px;
         padding-top: 10px;
     }
     /* Partner */
+
     .Padding_Partner{
         padding-top: 22px !important;
     }
@@ -304,18 +313,22 @@
         align-items: center;
         padding-top: 25px;
     }
+
     .img-microsoft{
         width: 200px;
         height: 49px;
     }
+
     .img-airbnb{
         width: 160px;
         height: 50px;
     }
+
     .img-facebook{
         width: 190px;
         height: 36px;
     }
+
     .img-spotify{
         width: 160px;
         height: 47px;
@@ -326,11 +339,13 @@
     .Features_Section{
         padding: 0px 20px;
     }
+
     .topic2{
         font-weight: 700;
         font-size: 24px;
         line-height: 30px;
     }
+
     .box1{
         margin-top: 30px;
     }
@@ -340,11 +355,13 @@
     .Features_Section2{
         padding: 0px 20px;
     }
+
     .topic3{
         font-weight: 700;
         font-size: 24px;
         line-height: 30px;
     }
+
     .box2{
         margin-top: 30px;
     }
@@ -354,30 +371,36 @@
     .Team_Section{
         padding: 0px 20px;
     }
+
     .topic4{
         font-weight: 700;
         font-size: 24px;
         line-height: 30px;
     }
+
     .Card1_Section{
         align-items: center;
         display: flex;
         flex-direction: column;
     }
+
     .card1{
         width: 279px;
         height: 299px;
     }
+
     .peg{
         align-items: center;
         padding-left: 45px;
     }
+
     .Card2_Section{
         align-items: center;
         display: flex;
         flex-direction: column;
         padding-right: 29px;
     }
+
     .card2{
         width: 279px;
         height: 299px;
@@ -386,39 +409,47 @@
         align-items: center;
         padding-left: 45px;
     }
+
     .Card3_Section{
         align-items: center;
         display: flex;
         flex-direction: column;
         padding-right: 29px;
     }
+
     .card3{
         width: 279px;
         height: 299px;
     }
+
     .alexandra{
         align-items: center;
         padding-left: 45px;
     }
+
     .Card4_Section{
         align-items: center;
         display: flex;
         flex-direction: column;
         padding-right: 17px;
     }
+
     .card4{
         width: 279px;
         height: 299px;
     }
+
     .janet{
         align-items: center;
         padding-left: 45px;
     }
 
     /* Footer */
+
     .Footer_Index{
         padding: 0px 10px;
     }
+
     .logo{
         display: flex;
         align-items: center;
@@ -426,16 +457,47 @@
         gap: 20px;
         padding-top: 10px;
     }
+
     .Yeartext{
         padding-top: 30px;
         padding-right: 15px;
     }
 
+    /* Header Portfolio */
 
+    .Start_Section{
+        padding-bottom: 0px;
+    }
 
+    .Portfolio{
+        font-size: 24px;
+    }
 
+    .Padding_Port{
+        padding-top: 25px !important;
+        padding-bottom: 20px !important;
+    }
+    .Padding_Poster{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .Work_Poster img{
+        max-width: 335px;
+        max-height: 453px;
+        left: -25px;
+    }
 
+    /* Button Portfolio */
 
+    .Padding_Button_Port{
+        padding-top: 0px !important;
+    }
+
+    /* Footer Portfolio */
+    
+    .Footer_Portfolio{
+        padding: 0px 10px;
+    }
 
 
   }
