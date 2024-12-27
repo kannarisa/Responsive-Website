@@ -223,7 +223,7 @@
         padding-left: 38px;
         padding-right: 0px;
     }
-    .Padding_Contact{
+    .Padding_Inform{
         padding-top: 40px;
         padding-bottom: 391px;
     }
@@ -499,6 +499,49 @@
         padding: 0px 10px;
     }
 
+    /* Contact Header */
+
+    .Contact_Header{
+        padding-bottom: 0px;
+    }
+
+    /* Contact Section */
+
+    .Padding_Contact{
+        padding-bottom: 0px !important;
+    }
+
+    .Contact_Section{
+        padding: 0px 20px 15px 20px;
+    }
+
+    /* Inform And Google Map */
+    
+    .Inform_Section{   
+        padding: 0px 20px 0px 20px;
+    }
+
+    .Inform_Row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .map_container{
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .map_container iframe {
+        width: 100%;
+        max-width: 335px;
+        max-height: 224px;
+    }
+
+    /* Footer Contact */
+
+    .Footer_Contact{
+        padding: 0px 10px;
+    }
 
   }
 
