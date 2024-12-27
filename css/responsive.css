@@ -203,6 +203,7 @@
     }
     .Contact_Section{
         padding-left: 50px;
+        padding-top: 8px;
     }
     .Inform_Section{
         padding: 0px 20px 0px 31px;
@@ -458,7 +459,7 @@
         padding-top: 10px;
     }
 
-    .Yeartext{
+    .Year_text{
         padding-top: 30px;
         padding-right: 15px;
     }
@@ -539,9 +540,20 @@
 
     /* Footer Contact */
 
+    .section-contact{
+        padding-top: 59px;
+    }
     .Footer_Contact{
         padding: 0px 10px;
     }
+
+
+
+
+
+
+
+
 
   }
 
