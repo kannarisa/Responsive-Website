@@ -232,7 +232,7 @@
     }
     .Padding_Inform{
         padding-top: 40px;
-        padding-bottom: 391px;
+        padding-bottom: 40px;
     }
 }   
 
@@ -749,4 +749,38 @@
     .Footer_Services{
         margin-top: 1px;
     }
+
+    /* Contact */
+
+    .Contact_Header{
+        padding-bottom: 0px;
+    }
+    
+    /* Google map and Inform Section */
+
+    .Inform_Section{   
+        padding: 0px 20px 0px 20px;
+    }
+
+    .Inform_Row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .Inform_box{
+        width: 450px;
+        margin-left: 130px;
+    }
+
+
+    .map_container{
+        padding: 0px 0px 40px 130px;
+
+    }
+
+    .map_container iframe{
+        width: 450px;
+    }
+
 }
