@@ -609,7 +609,7 @@
     }
 
     .Logo_Start{
-        width: 64px;
+        width: 64px !important;
     }
 
     .navbar-brand{
@@ -703,4 +703,17 @@
         margin-top: 2px;
     }
 
+    /* Portfolio */
+
+    .Start_Section{
+        padding-bottom: 0px;
+    }
+
+    /* Footer Portfolio */
+
+    .Footer_Portfolio{
+        margin-top: 1px;
+    }
+
+    
 }
