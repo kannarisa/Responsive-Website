@@ -200,7 +200,7 @@
     }
     .Padding_Services{
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 305px;
     }
 
     /* Contact us */
@@ -232,7 +232,7 @@
     }
     .Padding_Inform{
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 388px;
     }
 }   
 
@@ -765,22 +765,19 @@
     .Inform_Row{
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
-
+    
+    .map_container{
+        position: relative;
+        right: 40px;
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
 
     .Inform_box{
-        width: 450px;
-        margin-left: 130px;
-    }
-
-
-    .map_container{
-        padding: 0px 0px 40px 130px;
-
-    }
-
-    .map_container iframe{
+        position: relative;
+        right: 40px;
         width: 450px;
     }
-
 }
