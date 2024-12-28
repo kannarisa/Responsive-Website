@@ -192,7 +192,7 @@
         max-width: 100%;
     }
     .pro-services{
-        max-width: 100%; 
+        max-width: 100%;
     }
     .Footer_Services{
         padding-left: 38px;
@@ -200,7 +200,7 @@
     }
     .Padding_Services{
         padding-top: 40px;
-        padding-bottom: 308px;
+        padding-bottom: 40px;
     }
 
     /* Contact us */
@@ -601,7 +601,7 @@
   
   
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     /* Header */
     .container-fulid{
@@ -715,5 +715,38 @@
         margin-top: 1px;
     }
 
+    /* Our Services */
     
+    .Services_Header{
+        padding-bottom: 0px;
+    }
+
+    /* Basic Plus Pro Section */
+
+    .Padding_Services{
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .Row_Promotion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Basic_Col, .Plus_Col, .Pro_Col{
+        margin-right: 130px;
+    }
+
+    .basic-services, .plus-services, .pro-services{
+        max-width: 542px;
+        max-height: 100%;
+        margin-bottom: 50px;
+    }
+
+    /* Footer Services */
+
+    .Footer_Services{
+        margin-top: 1px;
+    }
 }
