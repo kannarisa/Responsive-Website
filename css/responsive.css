@@ -676,9 +676,31 @@
     .Card1_Section, .Card2_Section, .Card3_Section, .Card4_Section{
         padding-left: 50px;
     }
+    .peg, .richard, .alexandra, .janet{
+        padding-left: 45px;
+    }
 
+    .card1, .card2, .card3, .card4{
+        width: 279px !important;
+    }
 
+    .Card1_Section{
+        padding-left: 60px !important;
+        padding-bottom: 30px;
+    }
 
+    .Card3_Section{
+        padding-left: 48px !important;
+    }
 
+    .Card4_Section{
+        padding-left: 23px !important;
+    }
+
+    /* Footer */
+
+    .Footer_Index{
+        margin-top: 2px;
+    }
 
 }
