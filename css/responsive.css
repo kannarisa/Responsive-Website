@@ -57,6 +57,9 @@
     .Team_Section{
         padding: 0px 30px 0px 30px; 
     }
+    .Card1_Section{
+        padding-left: 25px !important;
+    }
     .card1{
         width: 210px;
         height: 300px;
@@ -69,7 +72,7 @@
         padding-right: 20px;
     }
     .Card2_Section{
-        padding-left: 0px;
+        padding-left: 10px !important;
     }
     .card2{
         width: 210px;
@@ -83,7 +86,7 @@
         padding-right: 20px;
     }
     .Card3_Section{
-        padding-left: 0px;  
+        padding-left: 10px !important;  
     }
     .card3{
         width: 210px;
@@ -95,6 +98,9 @@
     .Alex{
         width: 190px;
         padding-right: 20px;
+    }
+    .Card4_Section{
+        padding-left: 20px !important;
     }
     .card4{
         width: 210px;
@@ -595,4 +601,84 @@
   
   
 
-@media (min-width: 1200px) {}
+@media (min-width: 768px) {
+
+    /* Header */
+    .container-fulid{
+        padding: 17px 20px 0px 20px;
+    }
+
+    .Logo_Start{
+        width: 64px;
+    }
+
+    .navbar-brand{
+        position: relative;
+        right: 14.5rem;
+        font-size: 40px !important;
+    }
+
+    .navbar-toggler-icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-nav{
+        text-align: center;
+    }
+
+    /* Hero Section */
+
+    .Topic_Welcome{
+        padding: 0px 20px 0px 20px;
+    }
+
+    .Padding_Hero{
+        padding-top: 40px !important;
+    }
+
+    .h1{
+        font-size: 28px !important;
+        line-height: 40px !important;
+    }
+
+    .explore{
+        width: 150px;
+    }
+
+    /* Partner Section */
+
+    .img-google, .img-microsoft, .img-airbnb, .img-facebook, .img-spotify{
+        width: 100px;
+    }
+
+    /* Feature Section */
+
+    .Features_Section, .Features_Section2{
+        padding: 0px 20px;
+    }
+
+    .box1, .box2{
+        margin-top: 0px;
+    }
+
+    .topic2, .topic3{
+        font-size: 35px;
+        width: 350px;
+    }
+
+    /* Team Section */
+
+    .Team_Section{
+        padding: 0px 20px;
+    }
+
+    .Card1_Section, .Card2_Section, .Card3_Section, .Card4_Section{
+        padding-left: 50px;
+    }
+
+
+
+
+
+}
