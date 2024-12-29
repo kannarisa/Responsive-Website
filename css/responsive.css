@@ -754,8 +754,9 @@
     }
 
     .map_container{
-        padding-left: 0px;
+        padding-left: 55px;
         padding-bottom: 20px;
+        width: 360px;
     }
 
     .map_container iframe {
@@ -764,6 +765,10 @@
         max-height: 224px;
     }
 
+    .Inform_box{
+        padding-left: 50px;
+        max-width: 360px;
+    }
     /* Footer Contact */
 
     .section-contact{
