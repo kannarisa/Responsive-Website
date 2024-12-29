@@ -37,9 +37,19 @@ section p {
   background-color: #74c69d;
   color: white;
 }
+
 .navbar-nav{
     gap: 30px;
 }
+
+nav a {
+  transition: transform 0.2s ease,
+}
+
+nav a:hover {
+  transform: scale(1.1); 
+}
+
 /* Hero Section*/
 
 .text-uppercase{
