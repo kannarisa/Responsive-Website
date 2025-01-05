@@ -1,4 +1,27 @@
-@media (max-width: 1300px) {}
+@media (min-width: 1400px) {
+
+    /* Hero Section */
+
+    .headertop{
+        padding: 35px 135px 40px 135px;
+    }
+    .Padding_Hero{
+        padding: 0px 0px 0px 0px !important; 
+    }
+    .Row_Welcome{
+        padding: 0px 129.72px 82.27px 130px; 
+    }
+    .Welcome_Box{
+        position: relative;
+        top: 50%;
+    }
+    .Teamwork_3{
+        position: relative;
+        left: 50%;
+        bottom: 240px;
+        width: 644.28px;
+    }
+}
 @media (max-width: 1024px) {
         html{
         width: 100%;
@@ -421,7 +444,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
 
     /* Header */
 
