@@ -1,27 +1,36 @@
-@media (min-width: 1400px) {
+
+@media screen and (max-width: 1440px) {
 
     /* Hero Section */
 
     .headertop{
         padding: 35px 135px 40px 135px;
     }
-    .Padding_Hero{
-        padding: 0px 0px 0px 0px !important; 
+
+    .container-fulid{
+        padding: 0px 0px 0px 0px !important;
     }
+
+    .Container_Welcome{
+        padding: 0!important; 
+        margin: 0;
+        max-width: 100%;
+    }
+    
     .Row_Welcome{
-        padding: 0px 129.72px 82.27px 130px; 
+        padding: 0px 129px 82.27px 130px; 
+        display: flex;
+        align-items: center;
     }
-    .Welcome_Box{
-        position: relative;
-        top: 50%;
-    }
+
     .Teamwork_3{
         position: relative;
-        left: 50%;
-        bottom: 240px;
-        width: 644.28px;
+        left: 12%;
     }
+
 }
+
+/*
 @media (max-width: 1024px) {
         html{
         width: 100%;
@@ -57,9 +66,9 @@
     .img-spotify{
         width: 140px;
     }
-
+*/
     /* Feature Section */
-
+/*
     .Features_Section{
         padding: 0px 30px 0px 30px; 
     }
@@ -76,7 +85,7 @@
     }
 
     /* Team Section */
-
+/*
     .Team_Section{
         padding: 0px 30px 0px 30px; 
     }
@@ -142,7 +151,7 @@
     }
 
     /* portfolio */
-
+/*
     .Start_Section{
         padding-bottom: 30px;
     }
@@ -198,7 +207,7 @@
     }
 
     /* Our Services */
-
+/*
     .Services_Header{
         padding-bottom: 30px;
     }
@@ -227,6 +236,7 @@
     }
 
     /* Contact us */
+ /*
     .Contact_Header{
         padding-bottom: 30px;       
     }
@@ -270,6 +280,7 @@
 @media (max-width: 768px) {
 
     /* Header */
+/*
     .container-fulid{
         padding: 17px 20px 0px 20px;
     }
@@ -290,13 +301,13 @@
     }
 
     /* Hero Section */
-
+/*
     .Topic_Welcome{
         padding: 0px 20px 0px 20px;
     }
 
     .Padding_Hero{
-        padding-top: 40px !important;
+        padding-top: 40px;
     }
 
     .h1{
@@ -309,13 +320,13 @@
     }
 
     /* Partner Section */
-
+/*
     .img-google, .img-microsoft, .img-airbnb, .img-facebook, .img-spotify{
         width: 100px;
     }
 
     /* Feature Section */
-
+/*
     .Features_Section, .Features_Section2{
         padding: 0px 20px;
     }
@@ -330,7 +341,7 @@
     }
 
     /* Team Section */
-
+/*
     .Team_Section{
         padding: 0px 20px;
     }
@@ -360,31 +371,31 @@
     }
 
     /* Footer */
-
+/*
     .Footer_Index{
         margin-top: 2px;
     }
 
     /* Portfolio */
-
+/*
     .Start_Section{
         padding-bottom: 0px;
     }
 
     /* Footer Portfolio */
-
+/*
     .Footer_Portfolio{
         margin-top: 1px;
     }
 
     /* Our Services */
-    
+/*
     .Services_Header{
         padding-bottom: 0px;
     }
 
     /* Basic Plus Pro Section */
-
+/*
     .Padding_Services{
         padding-top: 0px;
         padding-bottom: 40px;
@@ -407,19 +418,19 @@
     }
 
     /* Footer Services */
-
+/*
     .Footer_Services{
         margin-top: 1px;
     }
 
     /* Contact */
-
+/*
     .Contact_Header{
         padding-bottom: 0px;
     }
     
     /* Google map and Inform Section */
-
+/*
     .Inform_Section{   
         padding: 0px 20px 0px 20px;
     }
@@ -447,7 +458,7 @@
 @media (min-width: 375px) {
 
     /* Header */
-
+/*
     .container-fulid{
         padding: 2px 20px 0px 20px;
     } 
@@ -476,17 +487,14 @@
 
     /* Hero Section */
 
-    .Topic_Welcome{
-        padding: 0px 20px 0px 20px;
-    }
-
+/*
     .Topic_Welcome .row{
         display: flex;
         flex-direction: column-reverse;
     }
 
     .Padding_Hero{
-        padding-top:  20px !important;
+        padding-top:  20px;
     }
 
     .h1{
@@ -512,7 +520,7 @@
         padding-top: 10px;
     }
     /* Partner */
-
+/*
     .Padding_Partner{
         padding-top: 22px !important;
     }
@@ -546,7 +554,7 @@
     }
 
     /* Feature Section */
-
+/*
     .Features_Section{
         padding: 0px 20px;
     }
@@ -562,7 +570,7 @@
     }
 
     /* Feature Section 2 */
-
+/*
     .Features_Section2{
         padding: 0px 20px;
     }
@@ -578,7 +586,7 @@
     }
 
     /* Team_Section */
-
+/*
     .Team_Section{
         padding: 0px 20px;
     }
@@ -661,7 +669,7 @@
     }
 
     /* Footer */
-
+/*
     .Footer_Index{
         padding: 0px 10px;
     }
@@ -680,7 +688,7 @@
     }
 
     /* Header Portfolio */
-
+/*
     .Start_Section{
         padding-bottom: 0px;
     }
@@ -704,19 +712,19 @@
     }
 
     /* Button Portfolio */
-
+/*
     .Padding_Button_Port{
         padding-top: 0px !important;
     }
 
     /* Footer Portfolio */
-    
+/*
     .Footer_Portfolio{
         padding: 0px 10px;
     }
 
     /* Our Services */
-
+/*
     .Services_Header{
         padding-bottom: 0px;
     }
@@ -744,19 +752,19 @@
     }
 
     /* Footer Services */
-        
+/* 
     .Footer_Services{
         padding: 0px 10px;
     }
 
     /* Contact Header */
-
+/*
     .Contact_Header{
         padding-bottom: 0px;
     }
 
     /* Contact Section */
-
+/*
     .Padding_Contact{
         padding-bottom: 0px !important;
     }
@@ -766,7 +774,7 @@
     }
 
     /* Inform And Google Map */
-    
+/*
     .Inform_Section{   
         padding: 0px 20px 0px 20px;
     }
@@ -793,7 +801,7 @@
         max-width: 360px;
     }
     /* Footer Contact */
-
+/*
     .section-contact{
         padding-top: 59px;
     }
