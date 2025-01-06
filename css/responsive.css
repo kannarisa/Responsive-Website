@@ -26,7 +26,8 @@
     }
 
     .image_Partner{
-        padding-left: 10%;
+        padding-left: 35px;
+        gap: 50px;
     }
 
     .img-google, .img-microsoft, .img-airbnb, .img-facebook, .img-spotify{
@@ -55,127 +56,47 @@
     .Four_Card{
         padding-left: 50px;
     }
+    .image_Partner{
+        padding-left: 0px;
+    }
 }
-/*
+
 @media (max-width: 1024px) {
-        html{
-        width: 100%;
-        height: 100%;
-    }
 
-    .container-fulid{
-        padding: 35px 80px 0px 80px;
-    }
 
-    .Topic_Welcome{
+    .Topic_Welcome ,.headertop, .Padding_Partner, .Features_Padding1, .Features_Padding2, .Team_Padding{
         padding: 40px 80px 0px 80px;
     }
     .container{
         padding: 0;
         margin: 0;
     }
-    .Partner_Section{
-        padding: 0px 20px 0px 20px;
-    }
-    .img-google{
-        width: 150px;
-    }
-    .img-microsoft{
-        width: 140px;
-    }
-    .img-airbnb{
-        width: 140px;
-    }
-    .img-facebook{
-        width: 140px;
-    }
-    .img-spotify{
-        width: 140px;
-    }
-*/
+}
     /* Feature Section */
-/*
-    .Features_Section{
-        padding: 0px 30px 0px 30px; 
-    }
+
     .box1{
         padding: 0px 15px;
-        margin-top: 50px;
-    }
-    .Features_Section2{
-        padding: 0px 30px 0px 30px; 
+        margin-top: 40px;
     }
     .box2{
         padding: 0px 15px;
-        margin-top: 120px; 
+        margin-top: 60px; 
     }
 
     /* Team Section */
-/*
-    .Team_Section{
-        padding: 0px 30px 0px 30px; 
+
+    .Four_Card{
+        padding-left: 80px;
     }
-    .Card1_Section{
-        padding-left: 25px !important;
-    }
-    .card1{
-        width: 210px;
-        height: 300px;
-    }
-    .peg{
-        left: 10px;
-    }
-    .Peggy{
-        width: 190px;
-        padding-right: 20px;
-    }
-    .Card2_Section{
-        padding-left: 10px !important;
-    }
-    .card2{
-        width: 210px;
-        height: 300px;
-    }
-    .richard{
-        left: 10px;
-    }
-    .Rich{
-        width: 190px;
-        padding-right: 20px;
-    }
-    .Card3_Section{
-        padding-left: 10px !important;  
-    }
-    .card3{
-        width: 210px;
-        height: 300px;
-    }
-    .alexandra{
-        left: 10px;
-    }
-    .Alex{
-        width: 190px;
-        padding-right: 20px;
-    }
-    .Card4_Section{
-        padding-left: 20px !important;
-    }
-    .card4{
-        width: 210px;
-        height: 300px;
-    }
-    .janet{
-        left: 10px;
-    }
-    .Janet{
-        width: 190px;
-        padding-right: 20px;
-    }
+
     .Footer_Index{
         padding-left: 38px;
         padding-right: 0px;
     }
 
+    .Viewteam_Padding{
+        padding-bottom: 54px;
+    }
     /* portfolio */
 /*
     .Start_Section{
@@ -294,27 +215,46 @@
         padding-bottom: 388px;
     }
 }   
+*/
+@media (max-width: 991.98px){
+    .navbar{
+        max-width: 100%;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .Footer_Index{
+        max-width: 100%;
+        padding-right: 38px;
+    }
+    .topic3{
+        font-size: 32px;
+    }
+}
 
+@media (max-width: 931px){
+    .img-google, .img-microsoft, .img-airbnb, .img-facebook, .img-spotify{
+        max-width: 100%;
+        width: 110px;
+    }
+}
 
+@media (max-width: 837px){
+    .img-google, .img-microsoft, .img-airbnb, .img-facebook, .img-spotify{
+        max-width: 100%;
+        width: 100px;
+    }
+    .Four_Card{
+        padding-left: 0px;
+    }
+}
 
-@media (max-width: 576px) {}
-
-@media (max-width: 480px) {}
-
-@media (max-width: 400px) {}
-
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
     /* Header */
-/*
-    .container-fulid{
-        padding: 17px 20px 0px 20px;
-    }
 
-    .navbar-brand{
-        position: relative;
-        right: 14.5rem;
-        font-size: 40px !important;
+    .headertop{
+        padding: 30px 20px 30px 20px;
     }
 
     .navbar-toggler-icon{
@@ -327,7 +267,7 @@
     }
 
     /* Hero Section */
-/*
+
     .Topic_Welcome{
         padding: 0px 20px 0px 20px;
     }
@@ -336,9 +276,9 @@
         padding-top: 40px;
     }
 
-    .h1{
-        font-size: 28px !important;
-        line-height: 40px !important;
+    .h1.fw-bold{
+        font-size: 28px;
+        line-height: 40px;
     }
 
     .explore{
@@ -346,19 +286,37 @@
     }
 
     /* Partner Section */
-/*
+    
+    .Padding_Partner{
+        padding: 40px 20px 0px 20px;
+    }
+
+    .topic1{
+        font-size: 35px;
+    }
+    .image_Partner{
+        display: grid;
+        justify-content: center;
+        padding-left: 10%;
+    }
     .img-google, .img-microsoft, .img-airbnb, .img-facebook, .img-spotify{
-        width: 100px;
+        max-width: 100%;
+        width: 170px;
     }
 
     /* Feature Section */
-/*
+
+    .Features_Padding1, .Features_Padding2{
+        padding: 40px 20px 0px 20px;
+        justify-content: center;
+        display: flex;
+    }
     .Features_Section, .Features_Section2{
-        padding: 0px 20px;
+        max-width: 70%;
     }
 
     .box1, .box2{
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     .topic2, .topic3{
@@ -367,41 +325,37 @@
     }
 
     /* Team Section */
-/*
+
+    .Team_Padding{
+        padding: 40px 20px 0px 20px;
+    }
     .Team_Section{
         padding: 0px 20px;
     }
-
-    .Card1_Section, .Card2_Section, .Card3_Section, .Card4_Section{
-        padding-left: 50px;
+    .Four_Card{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0%;
+        justify-content: center;
     }
-    .peg, .richard, .alexandra, .janet{
-        padding-left: 45px;
+    .card2, .card3, .card4{
+        max-width: 100%;
+        width: 279px;
+        left: 0px;
     }
-
-    .card1, .card2, .card3, .card4{
-        width: 279px !important;
+    .Card2_Section, .Card3_Section, .Card4_Section{
+        margin:0%;
+        padding: 0%;
     }
-
-    .Card1_Section{
-        padding-left: 60px !important;
-        padding-bottom: 30px;
+    .richard, .alexandra, .janet{
+        padding-left: 12px;
     }
-
-    .Card3_Section{
-        padding-left: 48px !important;
-    }
-
-    .Card4_Section{
-        padding-left: 23px !important;
-    }
-
     /* Footer */
-/*
+
     .Footer_Index{
         margin-top: 2px;
     }
-
+}
     /* Portfolio */
 /*
     .Start_Section{
@@ -480,11 +434,43 @@
         width: 450px;
     }
 }
+    */
+
+@media (max-width: 575.98px) { 
+    .headertop{
+        padding: 17px 20px 32px 20px;
+    }
+    .Welcome_Box{
+        padding: 0px 0px 40.39px 0px;
+    }
+    .topic1{
+        font-size: 24px;
+    }
+
+    /* Footer */
+
+    .Footer_Index{
+        padding: 24px 0px;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        gap: 20px;
+        padding-left: 28%;
+    }
+
+    .Year_text{
+        padding-top: 8%;
+        padding-right: 22%;
+    }
+ }  
+
+
 
 @media (min-width: 375px) {
 
     /* Header */
-/*
+
     .container-fulid{
         padding: 2px 20px 0px 20px;
     } 
@@ -496,7 +482,7 @@
 
     .navbar-brand{
         right: 60px;
-        font-size: 30px !important;
+        font-size: 30px;
     }
 
     .navbar-toggler-icon{
@@ -513,8 +499,8 @@
 
     /* Hero Section */
 
-/*
-    .Topic_Welcome .row{
+
+    .Topic_Welcome .Row_Welcome{
         display: flex;
         flex-direction: column-reverse;
     }
@@ -523,10 +509,10 @@
         padding-top:  20px;
     }
 
-    .h1{
-        font-weight: 700 !important;
-        font-size: 28px !important;
-        line-height: 35px !important;
+    .h1.fw-bold{
+        font-weight: 700;
+        font-size: 28px ;
+        line-height: 35px ;
         position: relative;
         bottom: 15px;
         margin: 0%;
@@ -546,17 +532,15 @@
         padding-top: 10px;
     }
     /* Partner */
-/*
+
     .Padding_Partner{
-        padding-top: 22px !important;
+        padding-top: 22px;
+        padding-bottom: 59.55px;
     }
 
     .image_Partner{
-        display: flex;
-        gap: 20px;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 25px;
+        display: grid;
+        gap: 40px;
     }
 
     .img-microsoft{
@@ -580,9 +564,14 @@
     }
 
     /* Feature Section */
-/*
+
+    .Features_Padding1{
+        padding-top: 0px;
+        padding-bottom: 60.12px;
+    }
     .Features_Section{
         padding: 0px 20px;
+        max-width: 80%;
     }
 
     .topic2{
@@ -596,9 +585,13 @@
     }
 
     /* Feature Section 2 */
-/*
+    .Features_Padding2{
+        padding-top: 0px;
+        padding-bottom: 40.13px;
+    }
     .Features_Section2{
         padding: 0px 20px;
+        max-width: 80%;
     }
 
     .topic3{
@@ -612,10 +605,11 @@
     }
 
     /* Team_Section */
-/*
-    .Team_Section{
-        padding: 0px 20px;
+
+    .Team_Padding{
+        padding-top: 0px;
     }
+
 
     .topic4{
         font-weight: 700;
@@ -623,96 +617,13 @@
         line-height: 30px;
     }
 
-    .Card1_Section{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding-right: 60px;
-    }
-
-    .card1{
-        width: 279px;
-        height: 299px;
-    }
-
-    .peg{
-        align-items: center;
-        padding-left: 45px;
-    }
-
-    .Card2_Section{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding-right: 40px;
-        margin-bottom: 30px;
-    }
-
-    .card2{
-        width: 279px;
-        height: 299px;
-    }
-    .richard{
-        align-items: center;
-        padding-left: 45px;
-    }
-
-    .Card3_Section{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        right: 30px;
-        margin-bottom: 30px;
-    }
-
-    .card3{
-        width: 279px;
-        height: 299px;
-    }
-
-    .alexandra{
-        align-items: center;
-        padding-left: 45px;
-    }
-
-    .Card4_Section{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        padding-right: 23px;
-        padding-bottom: 30px;
-    }
-
-    .card4{
-        width: 279px;
-        height: 299px;
-    }
-
-    .janet{
-        align-items: center;
-        padding-left: 45px;
+    .Viewteam_Padding{
+        padding-bottom: 39px;
     }
 
     /* Footer */
-/*
-    .Footer_Index{
-        padding: 0px 10px;
-    }
 
-    .logo{
-        display: flex;
-        align-items: center;
-        padding-left: 50px;
-        gap: 20px;
-        padding-top: 10px;
-    }
-
-    .Year_text{
-        padding-top: 30px;
-        padding-right: 15px;
-    }
-
+}
     /* Header Portfolio */
 /*
     .Start_Section{
