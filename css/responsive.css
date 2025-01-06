@@ -1,35 +1,61 @@
 
-@media screen and (max-width: 1440px) {
-
-    /* Hero Section */
-
-    .headertop{
-        padding: 35px 135px 40px 135px;
+@media (max-width: 1399.98px) {}
+@media (max-width: 1359px){ 
+    .Four_Card{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 50px 100px;
+        padding: 0px 132px 0px 132px;
     }
-
-    .container-fulid{
-        padding: 0px 0px 0px 0px !important;
+    .Card4_Section{
+        padding-left: 15px;
+    }    
+    .h1.fw-bold, .topic2{
+        font-size: 35px;
     }
-
-    .Container_Welcome{
-        padding: 0!important; 
-        margin: 0;
-        max-width: 100%;
-    }
-    
-    .Row_Welcome{
-        padding: 0px 129px 82.27px 130px; 
-        display: flex;
-        align-items: center;
-    }
-
-    .Teamwork_3{
-        position: relative;
-        left: 12%;
-    }
-
 }
 
+@media (max-width: 1198.98px) {
+
+    .Row_Welcome .Welcome_Box ,.Partner_Section .image_Partner{
+        max-width: 90%;
+    }
+
+    .h1.fw-bold{
+        font-size: 35px;
+    }
+
+    .image_Partner{
+        padding-left: 10%;
+    }
+
+    .img-google, .img-microsoft, .img-airbnb, .img-facebook, .img-spotify{
+        width: 130px;
+    }
+
+    .topic2{
+        font-size: 30px;
+    }
+
+    .box2{
+        padding-top: 100px;
+    }
+    .topic3 , .topic4{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 1158px){
+    .h1.fw-bold{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1100px){
+    .Four_Card{
+        padding-left: 50px;
+    }
+}
 /*
 @media (max-width: 1024px) {
         html{
