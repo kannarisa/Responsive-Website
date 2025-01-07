@@ -13,6 +13,7 @@
     .h1.fw-bold, .topic2{
         font-size: 35px;
     }
+
 }
 
 @media (max-width: 1198.98px) {
@@ -44,6 +45,20 @@
     .topic3 , .topic4{
         font-size: 34px;
     }
+
+    /* Portfolio */
+
+    .Padding_Port{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    /* Work Poster */
+
+    .example1,.example2,.example3,.example4,.example5,.example6,.example7,.example8{
+        max-width: 100%;
+    }
+
 }
 
 @media (max-width: 1158px){
@@ -85,9 +100,6 @@
 
     /* Team Section */
 
-    .Four_Card{
-        padding-left: 80px;
-    }
 
     .Viewteam_Padding{
         padding-bottom: 54px;
@@ -95,64 +107,17 @@
 
     /* Footer Index */
 
-    .Footer_Index{
+    .Footer_Index, .Footer_Portfolio{
         padding: 24px 100px;
     }
     /* portfolio */
-/*
-    .Start_Section{
-        padding-bottom: 30px;
-    }
-    .Portfolio_Section{
-        padding: 0px 20px 0px 20px;
-    }
+
+
     .Work_Section{
         padding: 0px 20px 0px 20px;
     }
-    .Work_Poster{   
-        margin: 0;
-        padding-bottom: 10px;
-    }
-    .example1{
-        max-width: 100%;  
-        bottom: 42px;
-        left: 10px; 
-    }
-    .example2{
-        max-width: 100%;   
-        bottom: 42px;
-    }
-    .example3{
-        max-width: 100%;
-        bottom: 42px;
-        left: 10px; 
-    }
-    .example4{
-        max-width: 100%;
-        bottom: 42px;
-    }
-    .example5{
-        max-width: 100%;
-        bottom: 42px;
-        left: 10px; 
-    }
-    .example6{
-        max-width: 100%;
-        bottom: 42px;
-    }
-    .example7{
-        max-width: 100%;
-        bottom: 42px;
-        left: 10px; 
-    }
-    .example8{
-        max-width: 100%;
-        bottom: 42px;
-    }
-    .Footer_Portfolio{
-        padding-left: 38px;
-        padding-right: 0px;
-    }
+
+
 
     /* Our Services */
 /*

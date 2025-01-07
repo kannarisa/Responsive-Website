@@ -527,6 +527,7 @@ nav a:hover {
   display: flex; 
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .logo{
@@ -548,6 +549,11 @@ nav a:hover {
   background-color: #74c69d;
   color: white;
 }
+
+.Start_Section{
+  padding: 0;
+}
+
 .Works{
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
@@ -556,6 +562,7 @@ nav a:hover {
   letter-spacing: 5px;
   text-align: center;
   color: #74c69d;
+  margin-bottom: 16px;
 }
 
 .Portfolio{
@@ -564,6 +571,12 @@ nav a:hover {
   font-size: 40px;
   line-height: 50px;
   text-align: center;
+  margin-bottom: 16px;
+}
+
+
+.Padding_Port{
+  padding: 30px 514px 82px 515px;
 }
 
 .text5{
@@ -573,41 +586,23 @@ nav a:hover {
   line-height: 25px;
   text-align: center;
   letter-spacing: 2px;
+  margin-bottom: 45px;
 }
 
 /* Work Poster */
 
-.example1{
-  position: relative;
-  right: 20px;
+.Work_Poster{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 55px;
+  justify-content: center;
+  margin: auto;
 }
-.example2{
-  position: relative;
-  left: 12px;
-}
-.example3{
-  position: relative;
-  right: 20px;
-}
-.example4{
-  position: relative;
-  left: 12px;
-}
-.example5{
-  position: relative;
-  right: 20px;
-}
-.example6{
-  position: relative;
-  left: 12px;
-}
-.example7{
-  position: relative;
-  right: 20px;
-}
-.example8{
-  position: relative;
-  left: 12px;
+
+.Work_Section{
+  padding-left: 130px;
+  padding-right: 130px;
 }
 /* button */
 
@@ -624,6 +619,22 @@ nav a:hover {
   background-color: #212529;
 }
 
+.Padding_Button_Port{
+  padding-top: 65px;
+  padding-bottom: 99px;
+}
+
+/* Footer Portfolio */
+
+.Footer_Portfolio{
+  padding: 51px 131px 49px 131px;
+  margin: 0;
+  max-width: 100%;
+}
+
+.Start_2022{
+  margin-bottom: 0px;
+}
 /* Our Services Section */
 
 .Plans{
