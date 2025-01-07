@@ -199,7 +199,7 @@
     .navbar-toggler{
         margin-left: auto;
     }
-    .Footer_Index{
+    .Footer_Index, .Footer_Portfolio{
         max-width: 100%;
     }
 
@@ -349,19 +349,14 @@
         display: flex;
         flex-direction: column;
     }
-}
+
     /* Portfolio */
-/*
-    .Start_Section{
-        padding-bottom: 0px;
-    }
 
-    /* Footer Portfolio */
-/*
-    .Footer_Portfolio{
-        margin-top: 1px;
+    .Work_Poster{
+        display: grid;
+        grid-template-columns: auto;
     }
-
+}
     /* Our Services */
 /*
     .Services_Header{
@@ -448,7 +443,7 @@
     }      
     /* Footer */
 
-    .Footer_Index{
+    .Footer_Index , .Footer_Portfolio{
         padding: 24px 0px;
     }
     .logo_box{
@@ -621,9 +616,9 @@
 
     /* Footer */
 
-}
+
     /* Header Portfolio */
-/*
+
     .Start_Section{
         padding-bottom: 0px;
     }
@@ -631,33 +626,25 @@
     .Portfolio{
         font-size: 24px;
     }
+    .headertop{
+        padding: 21px 20px 21px 20px;
+    }
+    .container-fulid{
+        padding: 0;
+    }
 
+    /* Padding Portfolio */
+    
     .Padding_Port{
-        padding-top: 25px !important;
-        padding-bottom: 20px !important;
+        padding: 34px 20px 0px 20px;
     }
-    .Padding_Poster{
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-    }
-    .Work_Poster img{
-        max-width: 335px;
-        max-height: 453px;
-        left: -25px;
-    }
+    /* Padding button port */
 
-    /* Button Portfolio */
-/*
     .Padding_Button_Port{
-        padding-top: 0px !important;
+        padding-top: 27px;
+        padding-bottom: 30px;
     }
-
-    /* Footer Portfolio */
-/*
-    .Footer_Portfolio{
-        padding: 0px 10px;
-    }
-
+}
     /* Our Services */
 /*
     .Services_Header{
