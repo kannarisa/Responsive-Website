@@ -13,7 +13,10 @@
     .h1.fw-bold, .topic2{
         font-size: 35px;
     }
-
+    .Padding_Contact{
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 
 }
 
@@ -59,7 +62,9 @@
     .example1,.example2,.example3,.example4,.example5,.example6,.example7,.example8{
         max-width: 100%;
     }
+
     /* Services */
+
     .Padding_Plans{
         padding-right: 250px;
         padding-left: 250px;
@@ -70,6 +75,31 @@
         padding-right: 20px;
     }
     .Container_Promotion{
+        max-width: 100%;
+    }
+
+    /* Contact */
+    .Padding_Inform{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .map iframe{
+       max-width: 100%;
+    }
+    .inform_box{
+        max-width: 100%;
+    }
+    .inform_box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Inform_box form {
+        max-width: 100%;
+    }
+    .Inform_box input{
+        max-width: 100%;
+    }
+    .SubmitBox .Submit{
         max-width: 100%;
     }
 }
@@ -138,21 +168,11 @@
         justify-content: center;
         gap: 50px;
     }
-}
+
 
 
     /* Contact us */
- /*
-    .Contact_Header{
-        padding-bottom: 30px;       
-    }
-    .Contact_Section{
-        padding-left: 50px;
-        padding-top: 8px;
-    }
-    .Inform_Section{
-        padding: 0px 20px 0px 31px;
-    }
+/* 
     .Inform_box form {
         width: 100%;
     }
@@ -172,9 +192,9 @@
     .Padding_Inform{
         padding-top: 40px;
         padding-bottom: 388px;
-    }
+    } */
 }   
-*/
+
 @media (max-width: 991.98px){
 
     .navbar{
