@@ -550,7 +550,7 @@ nav a:hover {
   color: white;
 }
 
-.Start_Section, .Services_Header{
+.Start_Section, .Services_Header, .Contact_Header{
   padding: 0;
 }
 
@@ -886,6 +886,45 @@ nav a:hover {
 
 /* Contact Section */
 
+.Padding_Contact{
+  padding: 30px 514px 67px 515px;
+}
+
+.Padding_Inform{
+  padding: 0px 130px 93px 130px;
+  max-width: 100%;
+}
+
+.Inform_Row{
+  display: grid;
+  gap: 30px;
+  margin: 0;
+  justify-content: center;
+  grid-template-columns: auto auto;
+}
+
+
+.Inform_box, .map_container{  
+  padding: 0;
+  margin: 0;
+}
+
+.ContactUs{
+  font-family: 'Crimson Text' ,sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 16px;
+}
+
+.text7{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 0px;
+}
+
 .NameTitle{
   font-family: 'Work Sans',sans-serif;
   font-weight: 400;
@@ -959,13 +998,6 @@ nav a:hover {
   margin-top: 5px;
 }
 
-.map_container{
-  padding-left: 30px;
-}
-
-.section-contact{
-  padding-top: 6.4rem;
-}
 
 /* Navbar Toggle */
 
