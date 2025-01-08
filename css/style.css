@@ -550,7 +550,7 @@ nav a:hover {
   color: white;
 }
 
-.Start_Section{
+.Start_Section, .Services_Header{
   padding: 0;
 }
 
@@ -637,6 +637,9 @@ nav a:hover {
 }
 /* Our Services Section */
 
+.Padding_Plans{
+  padding: 30px 514px 82px 515px;
+}
 .Plans{
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
@@ -645,6 +648,7 @@ nav a:hover {
   letter-spacing: 5px;
   text-align: center;
   color: #74c69d;
+  margin-bottom: 16px;
 }
 
 .OurServices{
@@ -653,6 +657,7 @@ nav a:hover {
   font-size: 40px;
   line-height: 50px;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .text6{
@@ -662,9 +667,23 @@ nav a:hover {
   line-height: 25px;
   text-align: center;
   letter-spacing: 2px;
+  margin-bottom: 0px;
 }
-/* Services Section */
 
+.Basic_Col, .Plus_Col, .Pro_Col{
+  padding: 0;
+  margin: 0;
+}
+
+.Row_Promotion{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+
+.OurServices_Section{
+  padding: 0px 106px 135px 107px;
+}
 /* Basic services */
 
 .basic-services{
@@ -857,11 +876,12 @@ nav a:hover {
   background-color: #212529;
 }
 
-/* Padding Our Services */
+/* Footer Services */
 
-.Padding_Services{
-  padding-top: 40px;
-  padding-bottom: 150px;
+.Footer_Services{
+  padding: 51px 131px 49px 131px;
+  margin: 0;
+  max-width: 100%;
 }
 
 /* Contact Section */
