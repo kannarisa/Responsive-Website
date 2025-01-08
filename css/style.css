@@ -998,7 +998,11 @@ nav a:hover {
   margin-top: 5px;
 }
 
-
+.Footer_Contact{
+  padding: 51px 131px 49px 131px;
+  margin: 0;
+  max-width: 100%;
+}
 /* Navbar Toggle */
 
 .navbar-toggler{
