@@ -217,7 +217,7 @@
     }
     .Inform_Row{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
     form{
@@ -368,32 +368,6 @@
     }
 }
     
-    /* Google map and Inform Section */
-/*
-    .Inform_Section{   
-        padding: 0px 20px 0px 20px;
-    }
-
-    .Inform_Row{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    
-    .map_container{
-        position: relative;
-        right: 40px;
-        padding-left: 0px;
-        margin-bottom: 40px;
-    }
-
-    .Inform_box{
-        position: relative;
-        right: 40px;
-        width: 450px;
-    }
-}
-    */
 
 @media (max-width: 575.98px) {
 
@@ -413,19 +387,29 @@
     }      
     /* Footer */
 
-    .Footer_Index , .Footer_Portfolio, .Footer_Services{
+    .Footer_Index , .Footer_Portfolio, .Footer_Services, .Footer_Contact{
         padding: 24px 0px;
     }
     .logo_box{
         display: flex;
         flex-direction:column;
-    }
-    .Inform_Row{
-        max-width: 80%;
-    }
-
+    }   
+    .Inform_box{
+        width: 100%; 
+   }
  }  
 
+ @media (max-width: 475.98px){
+    .Padding_Contact{
+        padding: 36px 20px 45px 20px;
+    }
+    .ContactUs{
+        font-size: 24px;
+    }
+    .Inform_box{
+         width: 100%; 
+    }
+ }
 
 
 @media (max-width: 374.98px) {
@@ -639,25 +623,9 @@
     .OurServices_Section{
         padding: 0px 20px 0px 20px;
     }
-}
-    /* Contact Header */
-/*
-    .Contact_Header{
-        padding-bottom: 0px;
-    }
-
-    /* Contact Section */
-/*
-    .Padding_Contact{
-        padding-bottom: 0px !important;
-    }
-
-    .Contact_Section{
-        padding: 0px 20px 15px 20px;
-    }
 
     /* Inform And Google Map */
-/*
+
     .Inform_Section{   
         padding: 0px 20px 0px 20px;
     }
@@ -667,11 +635,6 @@
         flex-direction: column-reverse;
     }
 
-    .map_container{
-        padding-left: 55px;
-        padding-bottom: 20px;
-        width: 360px;
-    }
 
     .map_container iframe {
         width: 100%;
@@ -680,17 +643,10 @@
     }
 
     .Inform_box{
-        padding-left: 50px;
         max-width: 360px;
+        width: 100%;
     }
-    /* Footer Contact */
-/*
-    .section-contact{
-        padding-top: 59px;
-    }
-    .Footer_Contact{
-        padding: 0px 10px;
-    }
+}
 
 
 
@@ -700,4 +656,4 @@
 
 
 
-  }
+ 
