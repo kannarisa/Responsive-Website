@@ -403,7 +403,7 @@
     .Padding_Contact{
         padding: 36px 20px 45px 20px;
     }
-    .ContactUs{
+    .ContactUs, .OurServices, .Portfolio{
         font-size: 24px;
     }
     .Inform_box{
