@@ -896,11 +896,11 @@ nav a:hover {
 }
 
 .Inform_Row{
-  display: grid;
+  display: flex;
   gap: 30px;
   margin: 0;
   justify-content: center;
-  grid-template-columns: auto auto;
+  flex-direction: row;
 }
 
 
@@ -934,6 +934,7 @@ nav a:hover {
 
 .name{
   width: 575px;
+  max-width: 100%;
   height: 38px;
   border-radius: 5px;
   border: 1px solid #000000;
@@ -953,6 +954,7 @@ nav a:hover {
 
 .email{
   width: 575px;
+  max-width: 100%;
   height: 38px;
   border-radius: 5px;
   border: 1px solid #000000;
@@ -972,6 +974,7 @@ nav a:hover {
 
 .message{
   width: 575px;
+  max-width: 100%;
   height: 75px;
   border-radius: 5px;
   border: 1px solid #000000;
@@ -984,6 +987,7 @@ nav a:hover {
 }
 .Submit{
   width: 575px;
+  max-width: 100%;
   height: 48px;
   border-radius: 5px;
   background-color: #212529;

@@ -86,21 +86,9 @@
     .map iframe{
        max-width: 100%;
     }
-    .inform_box{
-        max-width: 100%;
-    }
-    .inform_box{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .Inform_box form {
-        max-width: 100%;
-    }
-    .Inform_box input{
-        max-width: 100%;
-    }
-    .SubmitBox .Submit{
-        max-width: 100%;
+    form{
+        width: 100%;
+        max-width: 475px;
     }
 }
 
@@ -150,7 +138,7 @@
 
     /* Footer Index */
 
-    .Footer_Index, .Footer_Portfolio, .Footer_Services{
+    .Footer_Index, .Footer_Portfolio, .Footer_Services, .Footer_Contact{
         padding: 51px 131px 49px 131px;
     }
     /* portfolio */
@@ -172,27 +160,10 @@
 
 
     /* Contact us */
-/* 
-    .Inform_box form {
+    form{
         width: 100%;
+        max-width: 440px;
     }
-    .Inform_box input{
-        width: 100%;
-    }
-    .SubmitBox .Submit{
-        width: 100%;
-    }
-    .map iframe{
-        width: 450px;
-    }
-    .Footer_Contact{
-        padding-left: 38px;
-        padding-right: 0px;
-    }
-    .Padding_Inform{
-        padding-top: 40px;
-        padding-bottom: 388px;
-    } */
 }   
 
 @media (max-width: 991.98px){
@@ -212,7 +183,7 @@
     .navbar-toggler{
         margin-left: auto;
     }
-    .Footer_Index, .Footer_Portfolio, .Footer_Services{
+    .Footer_Index, .Footer_Portfolio, .Footer_Services, .Footer_Contact{
         max-width: 100%;
     }
 
@@ -226,6 +197,10 @@
         max-width: 100%;
         width: 110px;
     }
+    form{
+        width: 100%;
+        max-width: 375px;
+    }
 }
 
 @media (max-width: 837px){
@@ -235,6 +210,22 @@
     }
     .Four_Card{
         padding-left: 0px;
+    }
+    .logo_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .Inform_Row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form{
+        max-width: 100%;
+    }
+    .Padding_Contact{
+        padding-left: 125px;
+        padding-right: 125px;
     }
 }
 
@@ -376,21 +367,6 @@
         padding-right: 125px;
     }
 }
-    /* Basic Plus Pro Section */
-
-
-
-    /* Footer Services */
-/*
-    .Footer_Services{
-        margin-top: 1px;
-    }
-
-    /* Contact */
-/*
-    .Contact_Header{
-        padding-bottom: 0px;
-    }
     
     /* Google map and Inform Section */
 /*
@@ -444,7 +420,9 @@
         display: flex;
         flex-direction:column;
     }
-
+    .Inform_Row{
+        max-width: 80%;
+    }
 
  }  
 
